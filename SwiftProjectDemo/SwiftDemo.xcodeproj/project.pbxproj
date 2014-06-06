@@ -25,9 +25,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8800134919403DB2005C6572 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
-		8800134A19403DB2005C6572 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
-		8800134D19403DDB005C6572 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		88A08192193EDF1000386586 /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A08196193EDF1000386586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88A08197193EDF1000386586 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,9 +57,6 @@
 		88A08189193EDF1000386586 = {
 			isa = PBXGroup;
 			children = (
-				8800134D19403DDB005C6572 /* UIKit.framework */,
-				8800134919403DB2005C6572 /* AddressBook.framework */,
-				8800134A19403DB2005C6572 /* AddressBookUI.framework */,
 				88A08194193EDF1000386586 /* SwiftDemo */,
 				88A081A7193EDF1000386586 /* SwiftDemoTests */,
 				88A08193193EDF1000386586 /* Products */,

@@ -9,8 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     
+    @IBOutlet var label : UILabel = nil
+    @IBOutlet var button : UIButton = nil
+    
+  
+     deinit{
+    
+     
+    }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +30,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func buttonClick(sender : UIButton) {
+        println("Button Click");
+        var buttonSelected =  sender.selected ? "selected" : " No Selected"
+        self.label.text = "Button \(buttonSelected) "
+
+        sender.selected = !sender.selected
+    }
 
 }
 

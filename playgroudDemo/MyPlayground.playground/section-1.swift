@@ -1,7 +1,7 @@
 // Playground - noun: a place where people can play
 
 import UIKit
-
+import UIKit
 
 let digitNames = [
     0: "Zero", 1: "One", 2: "Two",   3: "Three", 4: "Four",
@@ -27,4 +27,4 @@ enum Barcode {
     case QRCode(String)
 }
 
-var productBarcode = (.QRCode("ABCDEFGHIJKLMNOP")).toRaw();
+
